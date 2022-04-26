@@ -1,0 +1,100 @@
+.App {
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.title {
+  font-weight: lighter;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column wrap;
+
+  p {
+    width: 60%;
+  }
+}
+.navigation {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  border-top: 1px solid rgb(168, 168, 168);
+  border-bottom: 1px solid rgb(168, 168, 168);
+  align-items: center;
+  flex-direction: row;
+  .filter {
+    display: flex;
+    align-items: center;
+  }
+  p {
+    margin-left: 10px;
+  }
+  .clear-now {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .clear-now:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.content {
+  margin-top: 40px;
+  .restaurant-list {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  .card {
+    width: 200px;
+    margin: 20px 10px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    .img-title {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 60px;
+      }
+      .restaurant-title {
+        font-weight: lighter;
+        margin: 10px 0px;
+        text-transform: capitalize;
+      }
+    }
+    .rating {
+      width: 100%;
+      justify-content: flex-start;
+      display: flex;
+      p {
+        margin: 0;
+      }
+    }
+    .status-type {
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+      p {
+        margin: 10px 0px;
+      }
+      .type-cost {
+        display: flex;
+      }
+    }
+    .detail {
+      width: 100%;
+    }
+  }
+}
