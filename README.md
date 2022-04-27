@@ -3,10 +3,12 @@
 Website : https://intern-test-andrianowijaya.netlify.app/
 
 # Technologies
-NodeJS v16.14.2
-ReactJS v18.0.0
-React Router v6
-SCSS
+<ol>
+  <li>NodeJS v16.14.2</li>
+  <li>ReactJS v18.0.0</li>
+  <li>React Router v6</li>
+  <li>SCSS</li>
+</ol>
 
 
 # Installatioin
