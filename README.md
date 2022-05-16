@@ -12,8 +12,8 @@
 
 # Installatioin
 ```
-git clone https://github.com/Andrian-W/Technical-Test-Reactjs-Developer.git
-cd Technical-Test-Reactjs-Developer
+git clone https://github.com/Andrian-W/test-technical
+cd test-technical
 ```
 
 # Start Website
