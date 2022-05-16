@@ -1,6 +1,5 @@
 ## Technical Test ReactJS Developer
 
-Website : https://intern-test-andrianowijaya.netlify.app/
 
 # Technologies
 <ol>
